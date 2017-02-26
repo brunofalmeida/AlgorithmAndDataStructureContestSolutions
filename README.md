@@ -1,6 +1,13 @@
-# Algorithm Solutions
+# Algorithm and Data Structure Contest Solutions
 
-A collection of my personal solutions to practice and contest algorithm problems, written in Python, C++, and Java.
+A collection of my personal solutions to contest-style algorithm and data structure problems, written in Python, C++, and Java.
+
+
+## Practice Websites
+
+DMOJ (Don Mills Online Judge) - https://dmoj.ca
+
+WCIPEG (Woburn Collegiate Institute Programming Enrichment Group) - http://wcipeg.com
 
 
 ## Contests
@@ -20,13 +27,6 @@ USACO (USA Computing Olympiad) - http://usaco.org
 Woburn Challenge - http://woburnchallenge.com
 
 
-## Practice/Contest Websites
-
-DMOJ (Don Mills Online Judge) - https://dmoj.ca
-
-WCIPEG (Woburn CI Programming Enrichment Group) - http://wcipeg.com
-
-
 ## Notes
 
-- Java files and classes are generally not named properly; to run one, you must make the file and class names match (with no spaces).
+- Java files and classes are generally not named properly. To run one, you must make the file and class names match (with no spaces).
