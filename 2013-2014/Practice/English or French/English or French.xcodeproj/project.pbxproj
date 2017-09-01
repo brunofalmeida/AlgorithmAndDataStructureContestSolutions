@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		156598DD19730624003617B9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 156598DC19730624003617B9 /* main.cpp */; };
-		156598DF19730624003617B9 /* English_or_French_.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 156598DE19730624003617B9 /* English_or_French_.1 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -18,16 +17,14 @@
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
-				156598DF19730624003617B9 /* English_or_French_.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		156598D919730624003617B9 /* English or French? */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "English or French?"; sourceTree = BUILT_PRODUCTS_DIR; };
+		156598D919730624003617B9 /* English or French */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "English or French"; sourceTree = BUILT_PRODUCTS_DIR; };
 		156598DC19730624003617B9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		156598DE19730624003617B9 /* English_or_French_.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = English_or_French_.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +41,7 @@
 		156598D019730624003617B9 = {
 			isa = PBXGroup;
 			children = (
-				156598DB19730624003617B9 /* English or French? */,
+				156598DB19730624003617B9 /* English or French */,
 				156598DA19730624003617B9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,26 +49,25 @@
 		156598DA19730624003617B9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				156598D919730624003617B9 /* English or French? */,
+				156598D919730624003617B9 /* English or French */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		156598DB19730624003617B9 /* English or French? */ = {
+		156598DB19730624003617B9 /* English or French */ = {
 			isa = PBXGroup;
 			children = (
 				156598DC19730624003617B9 /* main.cpp */,
-				156598DE19730624003617B9 /* English_or_French_.1 */,
 			);
-			path = "English or French?";
+			path = "English or French";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		156598D819730624003617B9 /* English or French? */ = {
+		156598D819730624003617B9 /* English or French */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 156598E219730625003617B9 /* Build configuration list for PBXNativeTarget "English or French?" */;
+			buildConfigurationList = 156598E219730625003617B9 /* Build configuration list for PBXNativeTarget "English or French" */;
 			buildPhases = (
 				156598D519730624003617B9 /* Sources */,
 				156598D619730624003617B9 /* Frameworks */,
@@ -81,9 +77,9 @@
 			);
 			dependencies = (
 			);
-			name = "English or French?";
+			name = "English or French";
 			productName = "English or French?";
-			productReference = 156598D919730624003617B9 /* English or French? */;
+			productReference = 156598D919730624003617B9 /* English or French */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -95,7 +91,7 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Bruno Almeida";
 			};
-			buildConfigurationList = 156598D419730624003617B9 /* Build configuration list for PBXProject "English or French?" */;
+			buildConfigurationList = 156598D419730624003617B9 /* Build configuration list for PBXProject "English or French" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -107,7 +103,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				156598D819730624003617B9 /* English or French? */,
+				156598D819730624003617B9 /* English or French */,
 			);
 		};
 /* End PBXProject section */
@@ -211,7 +207,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		156598D419730624003617B9 /* Build configuration list for PBXProject "English or French?" */ = {
+		156598D419730624003617B9 /* Build configuration list for PBXProject "English or French" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				156598E019730624003617B9 /* Debug */,
@@ -220,13 +216,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		156598E219730625003617B9 /* Build configuration list for PBXNativeTarget "English or French?" */ = {
+		156598E219730625003617B9 /* Build configuration list for PBXNativeTarget "English or French" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				156598E319730625003617B9 /* Debug */,
 				156598E419730625003617B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
